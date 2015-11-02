@@ -21,7 +21,7 @@ class SwitchLocaleViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractVi
   * What it does
   *
   * @param int $new New Locale to switch to
-  * @return string
+  * @return void
   * @author Urs Bräm <ub@sturmundbraem.ch>
   */
   public function render( $new) {
